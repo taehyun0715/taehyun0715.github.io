@@ -1,0 +1,31 @@
+.input-class
+{
+    width:400px;
+}
+.input-class input{
+    box-sizing: border-box;
+}
+
+.input-class input[type=text],
+.input-class input[type=number]
+{
+width:100%
+padding:10px;
+font-size:20px;
+border:2px solid purple;
+border-radious:15px;
+}
+
+.component-table{
+    border-collapse: collapse;
+}
+
+.component-table tr td{
+    border:1px solid black;
+    border-spacing: 0;
+}
+.my-table tr td{
+    border-collapse: collapse;
+    border:1px solid black;
+    width:200px;
+}
